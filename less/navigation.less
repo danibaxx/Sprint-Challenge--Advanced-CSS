@@ -1,1 +1,33 @@
 // Navigation code here
+.head-navs {
+    background: @sea-shell;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+   
+    nav {
+        padding: 15px;
+    }
+}
+
+header nav a {
+    color: @river-bend;
+    font-size: 1.6rem;
+    padding: 0 20px;
+
+    :link {
+        .hover-navs;
+    
+        :hover {
+            cursor: pointer;
+            background: navy;
+            color: whitesmoke;
+            // .hover-navs;
+        }
+    
+        :visited {
+            color: navy;
+            .hover-navs;
+        }
+}

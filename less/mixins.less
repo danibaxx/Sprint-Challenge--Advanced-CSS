@@ -1,1 +1,23 @@
 // Mixins Here
+.hover-navs {
+    font-weight: bold;
+	text-align: center;
+	border-radius: 5px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+// Parametric Mixin for buttons
+.btn-btm(@bg, @color, @txt-align) {
+    background: @bg;
+    color: @color;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-align: @txt-align;
+    border-radius: 10px;
+    box-shadow: none;
+    font-size: 1.8rem;
+    transition: 0.3s;
+    font-family: inherit;
+}

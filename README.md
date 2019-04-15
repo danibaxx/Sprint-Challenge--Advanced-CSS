@@ -35,7 +35,7 @@ Edit this document to include your answers after each question. Make sure to lea
 1. What is the difference between an adaptive website and a fully responsive website?
     - Adaptive: hard coded with pixels and is quicker way to build for specific devices.
 
-    -Responsive: takes longer to build and uses responsive units to create a seamless user experience across many devices at 1 time.
+    - Responsive: takes longer to build and uses responsive units to create a seamless user experience across many devices at 1 time.
 
 2. Describe what it means to be mobile first vs desktop first.
     - Designing mobile first, means to code CSS specifically for mobile functionality first and expand layout and features out to desktop with media queries.
@@ -49,7 +49,7 @@ Edit this document to include your answers after each question. Make sure to lea
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
     - Favorite: Mixins and variables are my favorite as they help with multiple styling and not having to rewrite the same code constantly, easy to inter grade with multiple colors/sizing/flexboxes.
 
-    -Troubles: Parametric mixins and nesting, dived a little deeper on these 2 just to fully understand a little better. Parametrics- really didn't understand the differences between () and no (), when to use @functions and when to just pass a argument. As for nesting, had to watch my placements of my }, when I would jump to my design file and see that it wasn't working, I would end up deleting it instead of investigating the issue. Eventually got it.
+    - Troubles: Parametric mixins and nesting, dived a little deeper on these 2 just to fully understand a little better. Parametrics- really didn't understand the differences between () and no (), when to use @functions and when to just pass a argument. As for nesting, had to watch my placements of my }, when I would jump to my design file and see that it wasn't working, I would end up deleting it instead of investigating the issue. Eventually got it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
