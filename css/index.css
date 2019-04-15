@@ -1,4 +1,4 @@
-.hover-navs {
+.nav-style {
   font-weight: bold;
   text-align: center;
   border-radius: 5px;
@@ -175,13 +175,13 @@ p {
   flex-wrap: nowrap;
   align-items: center;
 }
-.head-navs nav {
-  padding: 15px;
-}
-header nav a {
-  color: #454A59;
+.head-navs a {
   font-size: 1.6rem;
   padding: 0 20px;
+  text-decoration: none;
+}
+.head-navs nav {
+  padding: 15px;
 }
 a:link {
   font-weight: bold;
@@ -190,11 +190,12 @@ a:link {
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none;
+  color: #454A59;
 }
-a:link :hover {
+a:hover {
   cursor: pointer;
   background: navy;
-  color: whitesmoke;
+  color: #F6F6F6;
   font-weight: bold;
   text-align: center;
   border-radius: 5px;
@@ -202,8 +203,8 @@ a:link :hover {
   padding-bottom: 10px;
   text-decoration: none;
 }
-a:link :visited {
-  color: navy;
+a:visited {
+  color: #454A59;
   font-weight: bold;
   text-align: center;
   border-radius: 5px;
