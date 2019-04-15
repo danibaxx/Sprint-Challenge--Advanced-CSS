@@ -1,10 +1,10 @@
 .nav-style {
   font-weight: bold;
   text-align: center;
-  border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none;
+  border-radius: 30px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -186,31 +186,30 @@ p {
 a:link {
   font-weight: bold;
   text-align: center;
-  border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none;
+  border-radius: 30px;
   color: #454A59;
 }
 a:hover {
   cursor: pointer;
-  background: navy;
-  color: #F6F6F6;
+  background: #d2d3d6;
   font-weight: bold;
   text-align: center;
-  border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none;
+  border-radius: 30px;
 }
 a:visited {
   color: #454A59;
   font-weight: bold;
   text-align: center;
-  border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none;
+  border-radius: 30px;
 }
 footer {
   color: #22283B;
@@ -228,10 +227,13 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .intro .atmosphere {
+  border-radius: 5px;
+}
 @media (max-width: 500px) {
   .home .intro .atmosphere {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 5px;
   }
 }
 .home .space-images {
@@ -272,7 +274,8 @@ footer {
     flex-wrap: wrap;
     flex-direction: column-reverse;
     align-items: flex-start;
-    padding: 0;
+    padding: 15px;
+    margin: 15px;
   }
 }
 .walk .walk-text {
@@ -292,7 +295,7 @@ footer {
 .walk .walk-text .btn button {
   background: #22283A;
   color: #F6F7F8;
-  padding: 10px 15px;
+  padding: 10px 30px;
   font-weight: bold;
   text-align: center;
   border-radius: 10px;
@@ -322,7 +325,8 @@ footer {
 }
 @media (max-width: 500px) {
   .walk .walk-img {
-    width: 98%;
+    width: 100%;
+    margin-left: 0;
   }
 }
 .head-navs h1 {
