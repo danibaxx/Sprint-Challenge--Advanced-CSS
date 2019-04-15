@@ -6,6 +6,10 @@
   text-decoration: none;
   border-radius: 30px;
 }
+.reverse-btn {
+  background: #F6F7F8;
+  color: #22283A;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -327,6 +331,7 @@ footer {
   .walk .walk-img {
     width: 100%;
     margin-left: 0;
+    padding-bottom: 20px;
   }
 }
 .head-navs h1 {
