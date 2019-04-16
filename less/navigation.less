@@ -1,1 +1,37 @@
 // Navigation code here
+.head-navs {
+    background: @sea-shell;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    a {
+        font-size: 1.6rem;
+        padding: 0 20px;
+        text-decoration: none;
+
+    }
+           
+    nav {
+        padding: 15px;
+    }
+}
+
+a:link {
+    .nav-style;
+    color: @river-bend;
+}
+
+a:hover {
+    cursor: pointer;
+    background: lighten(@waterloo, 30%);
+    // : @porcelain;
+    .nav-style;
+}
+
+a:visited {
+    color: @river-bend;
+    .nav-style;
+}
+
